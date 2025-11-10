@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 拡張やバイナリ
+*.so
+*.dylib
+*.dll
+
+# 仮想環境
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# パッケージング／配布成果物
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+pip-wheel-metadata/
+share/python-wheels/
+
+# インストーラ / ログ
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.spec
+
+# テスト・カバレッジ
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# 静的解析 / 型チェック
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDE / エディタ
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~ 
+.project
+.metadata
+*.iml
+
+# Django / Flask 等のローカル設定やインスタンス
+local_settings.py
+instance/
+*.sqlite3
+db.sqlite3
+
+# Secret/env ファイル
+.env.local
+.env.*.local
+.env
+.envrc
+.secret
+
+# ビルドツール / 一時ファイル
+*.log
+*.pot
+*.mo
+*.cache
+*.out
+*.tmp
+
+# コンテナ / CI 関連（一時生成物）
+coverage.xml
+celerybeat-schedule
+taskmaster.pid
+
+# その他 Python 関連の一時ファイル
+*.egg
+*.egg-info/
+dist/
+build/
+
+# OS 固有
+.DS_Store
+Thumbs.db
